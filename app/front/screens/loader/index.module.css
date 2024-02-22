@@ -1,0 +1,8 @@
+.loader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* This makes the loader div take the full viewport height */
+    text-align: center;
+    color: #fefefe;
+}

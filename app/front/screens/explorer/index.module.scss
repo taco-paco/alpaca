@@ -1,0 +1,19 @@
+.list {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+
+  .navbar {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    flex: 0 0 40px;
+
+    .navItem {
+      flex: 1;
+      height: 100%;
+      text-align: center;
+      color: #fefefe;
+    }
+  }
+}

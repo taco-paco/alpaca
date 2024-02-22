@@ -1,0 +1,70 @@
+.SetupPageContainer {
+    padding: 2rem;
+    height: 100%;
+
+    h2 {
+        color: #fefefe;
+    }
+
+    .setupPage {
+        background-color: #22252d;
+        width: 100%;
+
+        section {
+            display: flex;
+            flex-direction: column;
+
+            //TODO : remove or not
+            h4 {
+                color: #fefefe;
+            }
+        }
+
+        h4 {
+            margin: 0 0 .25rem 0;
+        }
+
+        input {
+            width: 100%;
+        }
+
+        // TODO: separate component
+        button {
+            color: rgba(254, 254, 254, 0.8);
+            //color: #fefefe;
+            border-color: rgba(255, 255, 255, 0.4);
+            background-color: #22252d;
+            border-radius: 0 2px 2px 0;
+            padding: 5px 18px 6px;
+            vertical-align: middle;
+            text-align: center;
+            white-space: nowrap;
+            user-select: none;
+            overflow: visible;
+            transition: background 0.2s ease, border-color 0.2s ease;
+        }
+
+        .Row {
+            display: flex;
+            align-items: flex-start;
+            flex-direction: row;
+            margin-bottom: 2rem;
+            justify-content: space-between;
+            height: 30px;
+        }
+
+        .RowItem {
+            width: calc(50% - 1rem);
+            align-items: center;
+            height: 100%;
+        }
+
+        .RowItemInfo {
+            width: calc(50% - 1rem);
+            align-items: center;
+            height: 100%;
+            color: #fefefe;
+        }
+    }
+}
+/*.setupPageContainer .setupPage .*/

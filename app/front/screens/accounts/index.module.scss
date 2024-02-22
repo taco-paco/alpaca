@@ -1,0 +1,64 @@
+.list {
+  width: 100%;
+  padding: 0;
+
+  position: relative;
+
+  .card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.3rem .8rem;
+    background-color: #fefefe;
+    position: relative;
+    border-bottom: 1px solid #aaa;
+  }
+
+  .accountData {
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+  }
+
+  .address {
+    margin-right: 2rem;
+
+    min-width: 0;
+
+    .value {
+      white-space: normal;
+      word-wrap: break-word;
+    }
+  }
+
+  .accountBalance {
+    min-width: 0;
+
+    .value {
+      white-space: normal;
+      word-wrap: break-word;
+    }
+  }
+
+  .accountPrivateKey {
+    .label,
+    .value {
+      white-space: normal;
+      word-wrap: break-word;
+      font-size: 6px;
+    }
+  }
+
+  .other {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 30%;
+    min-width: 0;
+
+    > div {
+      width: 20%;
+    }
+  }
+}

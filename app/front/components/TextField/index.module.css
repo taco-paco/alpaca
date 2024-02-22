@@ -1,0 +1,11 @@
+.textFieldContainer {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.textField {
+    width: 100%;
+    /*border-color: rgba(151, 151, 151, 1.000);*/
+    height: 100%;
+}

@@ -1,0 +1,44 @@
+{
+  "compilerOptions": {
+    "paths": {
+      "app/*": ["app/*"],
+      "alpaca-addon": ["node_modules/@taco-paco/alpaca-addon-mac-arm64", "node_modules/@taco-paco/alpaca-addon-mac-x64"]
+    },
+    "lib": [
+      "ESNext",
+      "es6",
+      "dom"
+    ],                                        /* Specify a set of bundled library declaration files that describe the target runtime environment. */
+    "jsx": "react",                                /* Specify what JSX code is generated. */
+    "experimentalDecorators": true,                   /* Enable experimental support for TC39 stage 2 draft decorators. */
+    "useDefineForClassFields": true,                  /* Emit ECMAScript-standard-compliant class fields. */
+    "module": "ESNext",                                /* Specify what module code is generated. */
+    "moduleResolution": "node",                       /* Specify how TypeScript looks up a file from a given module specifier. */
+    "baseUrl": "./",                                  /* Specify the base directory to resolve non-relative module names. */
+    "resolveJsonModule": true,                        /* Enable importing .json files. */
+    "allowJs": true,                                  /* Allow JavaScript files to be a part of your program. Use the 'checkJS' option to get errors from these files. */
+    "checkJs": false,                                  /* Enable error reporting in type-checked JavaScript files. */
+    "sourceMap": true,                                /* Create source map files for emitted JavaScript files. */
+    "outDir": "./dist",                                   /* Specify an output folder for all emitted files. */
+    "removeComments": true,                           /* Disable emitting comments. */
+    "noEmit": true,                                   /* Disable emitting files from a compilation. */
+    "allowSyntheticDefaultImports": true,             /* Allow 'import x from y' when a module doesn't have a default export. */
+    "esModuleInterop": true,                             /* Emit additional JavaScript to ease support for importing CommonJS modules. This enables 'allowSyntheticDefaultImports' for type compatibility. */
+    "forceConsistentCasingInFileNames": true,            /* Ensure that casing is correct in imports. */
+
+    /* Type Checking */
+    "strict": true,                                      /* Enable all strict type-checking options. */
+    "noUnusedLocals": true,                           /* Enable error reporting when local variables aren't read. */
+    "noUnusedParameters": true,                       /* Raise an error when a function parameter isn't read. */
+    "noImplicitReturns": true,                        /* Enable error reporting for codepaths that do not explicitly return in a function. */
+    "noImplicitOverride": true,                       /* Ensure overriding members in derived classes are marked with an override modifier. */
+
+    /* Completeness */
+    "skipLibCheck": true                                 /* Skip type checking all .d.ts files. */
+  },
+  "include": [
+    "app/front/index.tsx",
+    "app/engine/index.ts",
+    "app/main/index.ts"
+  ],
+}

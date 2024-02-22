@@ -1,0 +1,21 @@
+.list {
+  width: 100%;
+  background-color: #fefefe;
+  //display: flex;
+  flex-direction: column;
+  position: relative;
+
+  .card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-bottom: 1px solid #aaa;
+    padding: 1.3rem .8rem;
+  }
+
+  .tx {
+    white-space: normal;
+    word-wrap: break-word;
+    width: 60%;
+  }
+}
