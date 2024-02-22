@@ -51,3 +51,5 @@ All suggestions and contributions are always welcome.
 
 Want to express my gratitude for Starknet Foundation. 
 STRK allocation was really a life-changing moment for me and also a trigger to finally publish this.
+
+UI is very raw and has only fraction of Ganache-UI functionality.
