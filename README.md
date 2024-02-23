@@ -2,11 +2,11 @@
 
 ## About
 Alpaca is your trusty blockchain tour guide, guiding you through Starknet network. 
-Inspired by existing tool - Ganache Ui, Alpaca spins up a local devnet instance, which is invaluable for testing smart contracts in a development environment.
+Inspired by [Ganache UI](https://github.com/trufflesuite/ganache-ui), Alpaca spins up a local [Devnet](https://github.com/0xSpaceShard/starknet-devnet-rs) instance, which is invaluable for testing smart contracts in a development environment.
 
 ## Goal
-Alpaca's goal is to provide same user-friendly interface and feature set similar to Ganache UI such as managing accounts, 
-inspecting transactions, and simulating various network conditions but also can expand on that with features like as L2←→L1 simulations.
+Alpaca's goal is to provide the same user-friendly interface and feature set similar to Ganache UI, such as managing accounts, 
+inspecting transactions, and simulating various network conditions, but also can expand on that with features like as L2←→L1 simulations.
 
 ## Powered by
 React, CSS, MobX, Electron
@@ -29,20 +29,20 @@ and then
 yarn start
 ```
 
-If your project uses devnet you shall be seamlessly be able yo use this one.
+If your project uses Devnet, you shall be able to seamlessly use this one.
 [Example project](https://github.com/taco-paco/starknet-exp).
 
-P.S
+P.S.
 
-Proper error messages are yet to come so make sure your port isn't occupied when launching.
+Proper error messages are yet to come, so make sure your port isn't occupied when launching.
 
 ## alpaca-addon
 alpaca-addon is what really makes this possible. It is an npm package and can be used in any other project.
 Under the hood it spins up [starknet-devnet-rs](https://github.com/0xSpaceShard/starknet-devnet-rs).
 
-Code will be published in separate repo in near future
+The code will be published in a separate repo in the near future.
 
-### P.S
+### P.S.
 That was a pet project at the beginning in which I poured my soul, but I hope it can evolve in something more. 
 
 I'm not a front-end dev so don't judge me real hard here :). 
