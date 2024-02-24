@@ -3,7 +3,11 @@ const path = require('path');
 
 function getSuffix() {
     if (process.platform === 'win32') {
-        throw new Error('Support is coming...');
+        if (process.arch !== 'x64') {
+            throw new Error('Support is coming...');
+        }
+
+        return `win-${process.arch}`;
     } else if (process.platform === 'darwin') {
         return `mac-${process.arch}`;
     } else if (process.platform === 'linux') {

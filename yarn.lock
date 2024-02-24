@@ -1178,6 +1178,11 @@
   resolved "https://registry.yarnpkg.com/@taco-paco/alpaca-addon-mac-x64/-/alpaca-addon-mac-x64-0.0.1.tgz#82c7af8955ac0834a20a2be1be5e11abf8f12e8f"
   integrity sha512-WjFLyFrUYj8v+qEPYTDOWI2vqK09RyyuXOgWM2LQLlJVvxQ0VHyM1XVKzpSN4t8hHNBoJG5XyteLGuTxPvtp1w==
 
+"@taco-paco/alpaca-addon-win-x64@^0.0.1":
+  version "0.0.1"
+  resolved "https://registry.npmjs.org/@taco-paco/alpaca-addon-win-x64/-/alpaca-addon-win-x64-0.0.1.tgz#a575ad9f365c81928af758ec6be2d9866c77ca07"
+  integrity sha512-haafoW53wTz3gA0xUg+VwBG/20e3pSTn/zDsd1bc9/ySpW89+NjrEV49xHRtcetUNNIipZwnMBGgK8bIJdLAyw==
+
 "@tsconfig/node10@^1.0.7":
   version "1.0.9"
   resolved "https://registry.yarnpkg.com/@tsconfig/node10/-/node10-1.0.9.tgz#df4907fc07a886922637b15e02d4cebc4c0021b2"

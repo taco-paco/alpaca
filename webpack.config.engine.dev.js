@@ -41,7 +41,11 @@ module.exports = [
             extensions: ['.js', '.jsx', '.ts', '.tsx'],
             modules: ['./', 'node_modules'],
             alias: {
-                'alpaca-addon': ['@taco-paco/alpaca-addon-mac-arm64', '@taco-paco/alpaca-addon-mac-x64'],
+                'alpaca-addon': [
+                    '@taco-paco/alpaca-addon-mac-arm64', 
+                    '@taco-paco/alpaca-addon-mac-x64', 
+                    '@taco-paco/alpaca-addon-win-x64'
+                ],
             },
         },
     },
