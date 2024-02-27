@@ -11,7 +11,11 @@ function getSuffix() {
     } else if (process.platform === 'darwin') {
         return `mac-${process.arch}`;
     } else if (process.platform === 'linux') {
-        throw new Error('Support is coming...');
+        if (process.arch !== 'x64') {
+            throw new Error('Support is coming...');
+        }
+
+        return `linux-${process.arch}`;
     }
 
     throw new Error(`Unsupported platform: ${process.platform}`);

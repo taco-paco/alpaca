@@ -1168,6 +1168,11 @@
   dependencies:
     defer-to-connect "^2.0.0"
 
+"@taco-paco/alpaca-addon-linux-x64@^0.0.1":
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/@taco-paco/alpaca-addon-linux-x64/-/alpaca-addon-linux-x64-0.0.1.tgz#79341614443031906a643e08b34d31fe8868e4cd"
+  integrity sha512-f8KLJZFY3GEtfWniWehLJ67NshlACwT1/sEmOx/FFP862NLDaS+N17kpliijXPvJMoy+7i5U1HXPwURgwy9pMA==
+
 "@taco-paco/alpaca-addon-mac-arm64@^0.0.1":
   version "0.0.1"
   resolved "https://registry.yarnpkg.com/@taco-paco/alpaca-addon-mac-arm64/-/alpaca-addon-mac-arm64-0.0.1.tgz#01073d6de625f39da3fe28f6c0d5428a894cf220"
