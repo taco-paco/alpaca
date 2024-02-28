@@ -9,13 +9,13 @@ function getSuffix() {
 
         return `win-${process.arch}`;
     } else if (process.platform === 'darwin') {
-        if (process.arch !== 'x64' || process.arch !== 'arm64') {
+        if (process.arch !== 'x64' && process.arch !== 'arm64') {
             throw new Error("This architecture isn't supported.");
         }
 
         return `mac-${process.arch}`;
     } else if (process.platform === 'linux') {
-        if (process.arch !== 'x64' || process.arch !== 'arm64') {
+        if (process.arch !== 'x64' && process.arch !== 'arm64') {
             throw new Error("This architecture isn't supported.");
         }
 
