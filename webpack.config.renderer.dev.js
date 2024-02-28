@@ -68,6 +68,7 @@ module.exports = [
                     '@taco-paco/alpaca-addon-mac-x64',
                     '@taco-paco/alpaca-addon-win-x64',
                     '@taco-paco/alpaca-addon-linux-x64',
+                    '@taco-paco/alpaca-addon-linux-arm64',
                 ],
             },
         },

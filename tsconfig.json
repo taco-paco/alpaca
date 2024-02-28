@@ -6,7 +6,8 @@
         "node_modules/@taco-paco/alpaca-addon-mac-arm64",
         "node_modules/@taco-paco/alpaca-addon-mac-x64",
         "node_modules/@taco-paco/alpaca-addon-win-x64",
-        "node_modules/@taco-paco/alpaca-addon-linux-x64"
+        "node_modules/@taco-paco/alpaca-addon-linux-x64",
+        "node_modules/@taco-paco/alpaca-addon-linux-arm64"
       ]
     },
     "lib": [
