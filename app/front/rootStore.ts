@@ -1,5 +1,5 @@
 import { createContext } from 'react';
-import SetupStore from "./screens/Setup/store"
+import SetupStore from './screens/Setup/store';
 import { MemoryHistory } from 'history';
 import { history } from './setupHistory';
 import TransactionsStore from './screens/Transactions/store';
