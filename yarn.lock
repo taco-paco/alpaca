@@ -1173,10 +1173,10 @@
   resolved "https://registry.yarnpkg.com/@taco-paco/alpaca-addon-linux-arm64/-/alpaca-addon-linux-arm64-0.0.1.tgz#98193946e56c1c7af3a40a5b66c2fc528dc025a5"
   integrity sha512-zbHPSIN3VPO7r3rKZIIOpi+cRutDpjybmykH2ZRlRqJvcFSXVgmX30Wvi9M25HY7YrfcAATf6zzsbTaDr2/2qQ==
 
-"@taco-paco/alpaca-addon-linux-x64@^0.0.1":
-  version "0.0.1"
-  resolved "https://registry.yarnpkg.com/@taco-paco/alpaca-addon-linux-x64/-/alpaca-addon-linux-x64-0.0.1.tgz#79341614443031906a643e08b34d31fe8868e4cd"
-  integrity sha512-f8KLJZFY3GEtfWniWehLJ67NshlACwT1/sEmOx/FFP862NLDaS+N17kpliijXPvJMoy+7i5U1HXPwURgwy9pMA==
+"@taco-paco/alpaca-addon-linux-x64@^0.0.2":
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/@taco-paco/alpaca-addon-linux-x64/-/alpaca-addon-linux-x64-0.0.2.tgz#7c2f62ae1a47eb2c18b38eae6a45d862d0001cf0"
+  integrity sha512-EK2apvW38eJORLhtyNB3KRGY392+lzpPl1gZ88AFVzOmPLpIn5mCpJ7V+bRSuDmp7/gAtAGdErCyTUun3Oue2g==
 
 "@taco-paco/alpaca-addon-mac-arm64@^0.0.1":
   version "0.0.1"
