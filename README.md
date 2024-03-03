@@ -19,10 +19,10 @@ is basically a DLL it requires to be compiled for every platform individually.
 
 Check the table to see if your platform is supported:
 
-|                | MacOs                                   | Linux                                   | Windows                                 |
-|----------------|-----------------------------------------|-----------------------------------------|-----------------------------------------|
-| x86_64, tested | :heavy_check_mark: / :x:                | :heavy_check_mark: / :heavy_check_mark: | :heavy_check_mark: / :heavy_check_mark: |
-| arm64, tested  | :heavy_check_mark: / :heavy_check_mark: | :heavy_check_mark: / :heavy_check_mark: | :x: / :x:                               |
+|         | MacOS               | Linux                 | Windows             |
+|---------|---------------------|-----------------------|---------------------|
+| x86_64  | :heavy_check_mark:  | :heavy_check_mark:    | :heavy_check_mark:  |
+| arm64   | :heavy_check_mark:  | :heavy_check_mark:    | :x:                 |
 
 
 ## Setup
