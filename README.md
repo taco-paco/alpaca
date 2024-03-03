@@ -13,11 +13,19 @@ React, CSS, MobX, Electron
 
 [**alpaca-addon**](https://www.npmjs.com/package/@taco-paco/alpaca-addon-mac-arm64)
 
-## Setup
-For now this project runs only on Macs with ARM64 and x86-64 architectures.
-I will add Win x64 [alpaca-addon](https://www.npmjs.com/package/@taco-paco/alpaca-addon-mac-arm64)
-support shortly and if this project sees interest, I will add support of other platforms.
+## Supported platforms
+Since [alpaca-addon](https://www.npmjs.com/package/@taco-paco/alpaca-addon-mac-arm64)
+is basically a DLL it requires to be compiled for every platform individually.
 
+Check the table to see if your platform is supported:
+
+|         | MacOS               | Linux                 | Windows             |
+|---------|---------------------|-----------------------|---------------------|
+| x86_64  | :heavy_check_mark:  | :heavy_check_mark:    | :heavy_check_mark:  |
+| arm64   | :heavy_check_mark:  | :heavy_check_mark:    | :x:                 |
+
+
+## Setup
 If your hardware & OS requirements a met run:
 ```bash
 yarn build
