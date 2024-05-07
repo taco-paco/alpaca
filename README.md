@@ -9,12 +9,10 @@ Alpaca's goal is to provide the same user-friendly interface and feature set sim
 inspecting transactions, and simulating various network conditions, but also can expand on that with features like as L2←→L1 simulations.
 
 ## Powered by
-React, CSS, MobX, Electron
-
-[**alpaca-addon**](https://www.npmjs.com/package/@taco-paco/alpaca-addon-mac-arm64)
+_React, CSS, MobX, Electron & Rust_ [**alpaca-addon**](https://github.com/taco-paco/alpaca-addon)
 
 ## Supported platforms
-Since [alpaca-addon](https://www.npmjs.com/package/@taco-paco/alpaca-addon-mac-arm64)
+Since [alpaca-addon](https://github.com/taco-paco/alpaca-addon)
 is basically a DLL it requires to be compiled for every platform individually.
 
 Check the table to see if your platform is supported:
@@ -26,7 +24,7 @@ Check the table to see if your platform is supported:
 
 
 ## Setup
-If your hardware & OS requirements a met run:
+If your hardware & OS requirements are met run:
 ```bash
 yarn build
 ```
@@ -41,14 +39,13 @@ If your project uses Devnet, you shall be able to seamlessly use this one.
 [Example project](https://github.com/taco-paco/starknet-exp).
 
 P.S.
-
 Proper error messages are yet to come, so make sure your port isn't occupied when launching.
 
 ## alpaca-addon
-alpaca-addon is what really makes this possible. It is an npm package and can be used in any other project.
+_alpaca-addon_ is what really makes this possible. It is an npm package and can be used in any other project.
 Under the hood it spins up [starknet-devnet-rs](https://github.com/0xSpaceShard/starknet-devnet-rs).
 
-The code will be published in a separate repo in the near future.
+The code may be found [here](https://github.com/taco-paco/alpaca-addon).
 
 ### P.S.
 That was a pet project at the beginning in which I poured my soul, but I hope it can evolve in something more. 
